@@ -1,0 +1,307 @@
+body {
+    margin: 0px;
+    padding: 0px;
+} @font-face {
+    font-family: "main";
+    src: url("font/main.ttf");
+} @font-face {
+    font-family: "aqua";
+    src: url("font/aqua.ttf");
+} @font-face{
+    font-family: "windy";
+    src: url("font/windy.ttf");
+} @font-face {
+    font-family: "bread";
+    src: url("font/bread.ttf");
+} @font-face {
+    font-family: "gothic_2";
+    src: url("font/gothic_2.ttf");
+} @font-face {
+    font-family: "robins";
+    src: url("font/robins.ttf");
+} .upper {
+    padding-left: 15%;
+    padding-right: 15%;
+} .logo {
+    height: 100px;
+} .photo {
+    font-size: 0px;
+} .intro {
+    transition: 0.2s;
+    background-color: rgb(243, 243, 243);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 7px;
+    border: solid 1px rgb(100, 100, 100);
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+} .intro:hover{
+    transition: 0.3s;
+    background-color: rgb(233, 233, 233);
+    transform: scale(1.01);
+} .notice_title {
+    font-family: "windy";
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+} .notice_ment {
+    font-family: "bread";
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 100;
+} .choice {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    padding-top: 60px;
+    height: 200px;
+} .deliver {
+    transition: 0.2s;
+    flex: 0 0 47%;
+    max-width: 50%;
+    background-color: rgb(190, 209, 238);
+    margin-right: 3%;
+    text-align: center;
+    border-radius: 5px;
+} .deliver:hover {
+    transition: 0.2s;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+} .reserve {
+    transition: 0.2s;
+    flex: 0 0 47%;
+    max-width: 50%;
+    background-color: rgb(190, 209, 238);
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 5px;
+} .reserve:hover {
+    transition: 0.2s;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+} .choice_ment{
+    font-size: 30px;
+    font-family: "main";
+    font-weight: 400;
+} .explain {
+    font-family: "gothic_2";
+    font-size: 15px;
+} .deliver_btn {
+    font-family: "bread";
+    font-size: 18px;
+    background-color: rgba(213, 227, 245, 1);
+    border-radius: 4px;
+    height: auto;
+    width: 30%;
+    color: black;
+} .deliver_btn:hover {
+    transition: 0.1s;
+    transform: scale(1.1);
+    cursor: pointer;
+} .deliver_input {
+    margin: 50px;
+    width: 50%;
+    background-color: rgb(243, 243, 243);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    padding: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+} .BoxText {
+    font-size: 15px;
+    font-family: "gothic";
+    font-weight: 500;
+} .Box {
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "gothic";
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+} .Mess {
+    font-family: "main";
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: 0px;
+} .confirm {
+    transition: 0.2s;
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    font-family: "main";
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+} .cancle {
+    transition: 0.2s;
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    font-family: "main";
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+} .confirm:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+} .cancle:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+} .reserve_input {
+    margin: 50px;
+    width: 50%;
+    background-color: rgb(243, 243, 243);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    padding: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+} .menu_div {
+    margin-left: 15%;
+    padding-top: 30px;
+    margin-right: 15%;
+    margin-bottom: 30px;
+} .menu_title {
+    font-family: "main";
+    font-size: 40px;
+    margin-bottom: 0px;
+} .menu_title_under {
+    font-family: "main";
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 3px;
+} .menu_title_under_2 {
+    font-family: "main";
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 40px;
+} .order {
+    cursor: pointer;
+} .menu_photo {
+    transition: 0.2s;
+    width: 100%;
+    padding: auto;
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+} .menu_photo:hover {
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+} .photo_1 {
+    float: left;
+    width: 28%;
+    margin-right: 8%;
+} .photo_2 {
+    float: left;
+    width: 28%;
+    margin-right: 8%;
+} .photo_3 {
+    float: left;
+    width: 28%;
+} .photo_1:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+} .photo_2:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+} .photo_3:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+} .menu_intro {
+    font-family: "main";
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+} .menu_price {
+    font-family: "main";
+    font-size: 15px;
+    text-align: center;
+} .blank {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+} .board_div {
+    margin-left: 15%;
+    padding-top: 30px;
+    margin-right: 15%;
+    margin-bottom: 30px;
+} .board_btn {
+    display: flex;
+    font-family: "bread";
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+} .board_int {
+    margin-left: 15%;
+    padding-top: 30px;
+    margin-right: 15%;
+    margin-bottom: 30px;
+} .last {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 80px;
+} .choi {
+    font-family: "windy";
+    margin-right: 15%;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    text-align: right;
+    float: right;
+} @media(max-width: 1200px) {
+    .upper {
+        padding-left: 10px;
+        padding-right: 10px;
+    } .intro {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .choice {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .menu_div {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .blank {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .board_div {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .board_int {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .choi {
+        margin-left: 10px;
+        margin-right: 10px;
+    } .deliver_input {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    } .reserve_input {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+} @media(max-width: 780px) {
+    .notice_ment {
+        font-size: 15px;
+    } .choice_ment {
+        font-size: 25px;
+    } .notice_title {
+        font-size: 25px;
+    }
+}

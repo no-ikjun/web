@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>데일리전곽</title>
+    <link rel="stylesheet" href="DailyCss.css">
+    <link rel="shortcut icon" href='image/logo_simple.png'>
+</head>
+<body>
+    <div id="bar">
+        <a class="logo" href="https://beol-gq.github.io/beolweb/Daily">Daily전곽</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="http://jeonnam-sh.hs.jne.kr/user/indexMain.action?siteId=chonnam-sh_hs">전남과학고</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://beol-gq.github.io/beolweb">벌점지켜</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://jshsus.kr">과구리</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://jshs.munzii.com/">전곽일보</a>
+        <a class="login" href="signin/index.html">기자 로그인</a>
+    </div>
+    <div class="second_bar">
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">뉴스홈</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">속보</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">IT</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">과학</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">생활</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">세계</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">경제</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">정치</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="photo/index.html">
+                <span class="content_text">포토</span>
+            </a>
+        </span>
+        <div class="news_search">
+            <input class="search" placeholder="뉴스 검색">
+        </div>
+    </div>
+    <div class="inner_line"></div>
+    <div class="notice">
+        <h1 class="notice_title">Notice!</h1>
+        <h3 class="notice_ment">데일리전곽을 새롭게 선보입니다!</h3>
+        <h3 class="notice_ment">언론사 별 최신 뉴스와 함께 학생 기자단의 기사를 실시간으로 만나보세요!</h3>
+        <h3 class="notice_ment">아직 안되는 기능이 많습니다... 업데이트를 기다려 주세요!!</h3>
+        <h3 class="notice_ment">현재 외부 뉴스는 네이버 뉴스로 연결됩니다.</h3>
+        <h3 class="notice_ment">학생 기자 모집중...(jshs20201418@h.jne.go.kr로 연락주세요)</h3>
+    </div>
+    <div class="photo_show" id="photo_show">
+        <br><input type="button" class="photo_show_button" value="사진 표시" onclick="toggle()">
+    </div>
+    <div class="news_part">
+        <h1 class="head">헤드라인 뉴스</h1>
+        <span class="sub_head">| 헤드라인 뉴스와 각 기사묶음 타이틀은 개발자 마음대로 정합니다.</span>
+    </div>
+    <div class="headline_photo">
+        <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=001&aid=0012628882">
+            <img class="photo" src="image/apple.png">
+        </a>
+        <ul class="headline_text">
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=104&oid=015&aid=0004598087">'한국 바로 옆인데'…日서 코로나 새 변이 나와 '충격'</a>
+                <a class="headline_text_name">김소연 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=100&oid=028&aid=0002558754">‘한달 숙의’ 돌파구 찾은 여야, 언론중재법 합의까진 ‘험로’ 예상</a>
+                <a class="headline_text_name">노지원 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=104&oid=081&aid=0003212775">탈레반 카불공항 장악, 이제 남은 유일한 탈출 루트 파키스탄 국경 르포</a>
+                <a class="headline_text_name">임병선 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=018&aid=0005024401">"5G 커버리지 1위는 LG유플러스…KT, SKT순</a>
+                <a class="headline_text_name">김현아 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://beol-gq.github.io/beolweb">벌점지켜 바로가기</a>
+                <a class="headline_text_name">최익준 기자</a>
+            </li>
+        </ul>
+    </div>
+    <div class="div"></div>
+    <div class="news_part">
+        <h1 class="head">IT</h1>
+        <a class="sub_menu" href="#">모바일</a>
+        <a class="sub_menu" href="#">통신</a>
+        <a class="sub_menu" href="#">인터넷</a>
+    </div>
+    <div class="headline_photo">
+        <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=092&aid=0002232184">
+            <img class="photo" src="image/zfold3.png">
+        </a>
+        <ul class="headline_text">
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=092&aid=0002232184">갤럭시Z폴드3 칼로 긁고 흙 뿌리고 불로 달궈보니...</a>
+                <a class="headline_text_name">이정현 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://jshs.munzii.com/news/article/?id=1629627877308">[속보] IT부 '과구리 해킹' 시도한 학생 2명에 구속영장 청구</a>
+                <a class="headline_text_name">백진후 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=629&aid=0000103080">폴더블폰 선전 업고 중저가폰도?…삼성전자, 애플·샤오미 누를까</a>
+                <a class="headline_text_name">한예주 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=018&aid=0005023551">LG폰 ‘통화 먹통’ 왜?…“수정 안된 구글 업데이트 원인”</a>
+                <a class="headline_text_name">김정유 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=138&aid=0002109535">구글·애플, 인앱결제 강요 못한다</a>
+                <a class="headline_text_name">권하영 기자</a>
+            </li>
+        </ul>
+    </div>
+    <div class="div"></div>
+    <div class="news_part">
+        <h1 class="head">과학</h1>
+        <a class="sub_menu" href="#">물리</a>
+        <a class="sub_menu" href="#">화학</a>
+        <a class="sub_menu" href="#">생물</a>
+    </div>
+    <div class="headline_photo">
+        <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=015&aid=0004598415">
+            <img class="photo" src="image/vaccine.png">
+        </a>
+        <ul class="headline_text">
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=421&aid=0005574970">국가과학기술자문회의, 올해 국가연구개발 제도개선안 심의·의결</a>
+                <a class="headline_text_name">이기범 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=015&aid=0004598415">아이진, 코로나19 mRNA 백신 국내 임상 1·2a상 승인</a>
+                <a class="headline_text_name">김만기 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=015&aid=0004597963">대세는 부스터샷…백신 개발업체들, 방향 틀었다</a>
+                <a class="headline_text_name">이주현 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=031&aid=0000621304">[과학게시판] KAIST '2021 온라인 기술이전 설명회' 外</a>
+                <a class="headline_text_name">최상국 기자</a>
+            </li>
+            <span class="blank_text"></span>
+            <li>
+                <a class="headline_text_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=030&aid=0002966159">화학연, AI 플랫폼 chemAI 서비스 출시...'코딩 못해도 손쉽게 활용'</a>
+                <a class="headline_text_name">김영준 기자</a>
+            </li>
+        </ul>
+    </div>
+    <div class="bottom_blank"></div>
+    <div class="water_mark">
+        <div class="blank"></div><br>
+        <div class="water_div_1">
+            <a class="water_family">Developer</a>
+            <div class="bottom_blank"></div>
+            <a class="family_developer">29th 최익준</a>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
